@@ -3,7 +3,6 @@
     padding: 0;
 
 }
-
 header {
     background-color: #7C5E99; 
     padding: 10px 20px; 
@@ -103,11 +102,7 @@ nav {
 
 }
 
-.card h2{
-    font-family: 'Press Start 2P', cursive;
-    text-shadow: 4px 4px 0 #000;
-    color: #FFF;
-}
+
 .botoes {
 width: 452px;
 height: 60px;
