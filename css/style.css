@@ -83,7 +83,7 @@ nav {
 
 }
 .areaCard {
-    width: 627px;
+    width: 800px;
     height:290px ;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ nav {
     align-items: center;
 }
 .card {
-    width: 627px;
+    width: 800px;
     height: 184px;
     background-color: #3A4042;
     color: #FFF;
