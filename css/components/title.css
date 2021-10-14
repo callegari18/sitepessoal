@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    text-shadow: 4px 4px 0 #000;
+    color: #F25A70;
+}
+
+.title {
+    height: 100px;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 50px;
+}
