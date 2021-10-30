@@ -1,77 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-
-}
-header {
-    background-color: #7C5E99; 
-    padding: 10px 20px; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    border-bottom: 10px solid #000;
-}
-
-a:before {
-    content:"" ;
-    background-color: #F25A70;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-a{
-    display: inline-flex;
-    align-items: center;
-    color: #FFF;
-    font-size: 20px;
-    font-family: 'Fira Code', monospace, sans-serif;
-    font-weight: 500;
-    margin-right: 30px;
-    text-decoration: none;
-}
-
-.logo img {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-}
-
-.buttonCv {
-    display: inline-block;
-    background-color: #F25A70;
-    width: 170px;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow:  5px 5px 0 #000;
-    margin-right: 0;
-    text-align: center;
-}
-
-.buttonCv:hover {
-    background-color: #333333;
-    border: 2px solid #000;
-    color: white;
-    transition: all 0.5s ease-in;
-    transition-delay: 0.05s;
-}
-
-
-nav {
-    text-align: right;
 }
 
 .capa {
-    /* background-image: url("../assets/img/capa.png"); */
+    background-image: url("../assets/img/capa.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: right;
     height: 797px;
     background-color: rgb(255, 165, 0);
     border-bottom: 10px solid #000;    
-    /* display: flex; */
 }
 .lado_opaco {
     width: 50%;
@@ -103,12 +42,7 @@ nav {
 }
 
 
-.botoes {
-width: 452px;
-height: 60px;
-display: flex;
-justify-content: space-between;
-}
+
 .skills {
     height: 740px;
     background-color: #F25A70;
@@ -145,6 +79,24 @@ justify-content: space-between;
     color: #FFF;
     border-bottom: 10px solid #000;  
 }
+.content form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content form input{
+    margin-bottom: 10px;
+}
+.content form input textarea{
+    margin-bottom: 10px;
+}
+.content form .buttonCv {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+}
+
 footer {
     height: 100px;
     background-color: #000;

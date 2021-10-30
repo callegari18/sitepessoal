@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +9,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/components/title.css">
     <link rel="stylesheet" href="./css/components/subtitle.css">
+    <link rel="stylesheet" href="./css/components/box.css">
+    <link rel="stylesheet" href="./css/components/button.css">
+    <link rel="stylesheet" href="./css/components/action.css">
+    <link rel="stylesheet" href="./css/components/header.css">
 
-    
+
+
+
     <title>Portifólio</title>
 </head>
+
 <body>
-    <header> <!--EMIT DICA ATALHO PARA CRIAR UM HEADER COM IMG, NAV E 4 URL( header>img+nav>a*4)-->
+    <header class="header">
+        <!--EMIT DICA ATALHO PARA CRIAR UM HEADER COM IMG, NAV E 4 URL( header>img+nav>a*4)-->
         <div class="logo"><img src="./assets/img/perfil150x150.jpg" alt=""></div>
         <nav>
-            <a href="#skills"lang="en">Skills</a>
-            <a href="#project">Projetos</a>
-            <a href="#about">Sobre</a>
-            <a href="#contact" lang="en">Contatos</a>
-            <a class="buttonCv" href="" lang="en">Download CV</a>
+            <a class="action" href="#skills" lang="en">Skills</a>
+            <a class="action" href="#project">Projetos</a>
+            <a class="action" href="#about">Sobre</a>
+            <a class="action" href="#contact" lang="en">Contatos</a>
+            <a class="button" href="" lang="en">Download CV</a>
         </nav>
     </header>
+
+
+
+
+
+
     <main>
         <div class="capa">
             <div class="lado_opaco">
+                <div class="box">
+                    <h1 class="title">Vinicius Callegari</h1>
+                    <h2 class="subtitle">FrontEnd Developer</h2>
+                </div>
+            </div>
+
+            <!-- <div class="lado_opaco">
                 <div class="areaCard">
-                    <div class="card">
+                    <div class="card"> 
                         <h1>Vinicius Callegari</h1>
                         <h2>FrontEnd Developer</h2>
                     </div>
@@ -41,14 +63,14 @@
                 </div>
             </div>
             <div class="lado_normal">
-                <!-- <div class="imgCapa">
+                <div class="imgCapa">
                     <img src="./assets/img/capa.png" alt="" srcset="">
-                </div> -->
-            </div>
+                </div>
+            </div> -->
 
         </div>
-        
-        <div id="skills" class="skills">
+
+        <!-- <div id="skills" class="skills">
             <div class="title">
                 <p>Skills</p>
             </div>
@@ -78,13 +100,20 @@
             </div>
             <div class="content">
                 <form> 
-
-</form>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="" size="150">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="" size="150">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="" cols="30" rows="10" size="150"></textarea>
+                    <a class="buttonCv" href="" lang="en">Enviar</a>
+                </form>
             </div>
-        </div>       
+        </div>        -->
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
